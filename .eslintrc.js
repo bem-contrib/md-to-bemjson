@@ -5,5 +5,16 @@ module.exports = {
         node: true,
         mocha: true
     },
-    extends: 'birhoff'
+    extends: 'birhoff',
+
+    overrides: [
+        {
+            files: ['*.test.js'],
+            env: { mocha: true },
+            globals: {
+                expect: false,
+                sinon: false
+            }
+        }
+    ]
 };
