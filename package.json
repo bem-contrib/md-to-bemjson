@@ -7,7 +7,8 @@
     "test": "npm run specs",
     "specs": "mocha packages/**/*.test.js",
     "cover": "nyc mocha packages/**/*.test.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "lerna publish --conventional-commits"
   },
   "engines": {
     "node": ">= 4"
