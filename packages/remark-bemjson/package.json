@@ -1,0 +1,45 @@
+{
+  "name": "remark-bemjson",
+  "version": "0.3.1",
+  "description": "remark plugin to compile bemjson",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run specs",
+    "specs": "mocha test/",
+    "cover": "nyc mocha test/",
+    "lint": "eslint ."
+  },
+  "files": [
+    "index.js",
+    "lib/**"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bem-contrib/md-to-bemjson.git"
+  },
+  "keywords": [
+    "remark",
+    "bemjson",
+    "compiler"
+  ],
+  "author": "Konstantin Gladkikh <birhoff@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bem-contrib/md-to-bemjson/issues?q=label%3Apkg%3Aremark-bemjson"
+  },
+  "homepage": "https://github.com/bem-contrib/md-to-bemjson/packages/remark-bemjson#readme",
+  "devDependencies": {
+    "node-eval": "^1.1.0",
+    "remark": "^8.0.0",
+    "vfile": "^2.0.1"
+  },
+  "dependencies": {
+    "lodash.defaultsdeep": "^4.6.0",
+    "mdast-util-to-bemjson": "^0.3.0",
+    "umd": "^3.0.1"
+  }
+}
