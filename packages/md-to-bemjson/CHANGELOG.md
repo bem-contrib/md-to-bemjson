@@ -1,6 +1,18 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+<a name="0.8.0"></a>
+# 0.8.0 (2017-10-06)
+
+
+### Features
+
+* **md-to-bemjson:** Add md-to-bemjson module ([5df8229](https://github.com/bem-contrib/md-to-bemjson/commit/5df8229))
+
+
+
 
 <a name="0.7.1"></a>
 ## [0.7.1](https://github.com/birhoff/md-to-bemjson/compare/v0.7.0...v0.7.1) (2017-10-01)

@@ -1,6 +1,19 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+<a name="0.4.0"></a>
+# 0.4.0 (2017-10-06)
+
+
+### Features
+
+* **md-to-bemjson:** Add md-to-bemjson module ([5df8229](https://github.com/bem-contrib/md-to-bemjson/commit/5df8229))
+* **mdast-util-to-bemjson:** Import package ([42a00c2](https://github.com/bem-contrib/md-to-bemjson/commit/42a00c2))
+
+
+
 
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/birhoff/mdast-util-to-bemjson/compare/v0.2.1...v0.3.0) (2017-10-01)

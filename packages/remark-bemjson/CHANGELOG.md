@@ -1,6 +1,19 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+<a name="0.4.0"></a>
+# 0.4.0 (2017-10-06)
+
+
+### Features
+
+* **md-to-bemjson:** Add md-to-bemjson module ([5df8229](https://github.com/bem-contrib/md-to-bemjson/commit/5df8229))
+* **remark-bemjson:** Add remark-bemjson module ([3e500e1](https://github.com/bem-contrib/md-to-bemjson/commit/3e500e1))
+
+
+
 
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/birhoff/remark-bemjson/compare/v0.3.0...v0.3.1) (2017-10-01)
