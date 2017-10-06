@@ -1,0 +1,46 @@
+{
+  "name": "mdast-util-to-bemjson",
+  "version": "0.3.0",
+  "description": "Converts mdast tree to bemjson tree",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npm run specs",
+    "specs": "mocha test/",
+    "cover": "nyc mocha test/",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bem-contrib/md-to-bemjson.git"
+  },
+  "keywords": [
+    "mdast",
+    "bemjson"
+  ],
+  "author": "Konstantin Gladkikh <birhoff@gmail.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bem-contrib/md-to-bemjson/issues?q=label%3Apkg%3Amdast-util-to-bemjson"
+  },
+  "files": [
+    "index.js",
+    "lib/**"
+  ],
+  "homepage": "https://github.com/bem-contrib/md-to-bemjson/packages/mdast-util-to-bemjson#readme",
+  "devDependencies": {
+    "remark-parse": "^4.0.0",
+    "unified": "^6.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "decamelize": "^1.2.0",
+    "detab": "^2.0.0",
+    "highlight.js": "^9.10.0",
+    "lodash": "^4.17.4",
+    "normalize-uri": "^1.1.0"
+  }
+}
