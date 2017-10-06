@@ -6,7 +6,7 @@
     "pretest": "npm run lint",
     "test": "npm run specs",
     "specs": "mocha packages/**/*.test.js",
-    "cover": "nyc packages/**/*.test.js",
+    "cover": "nyc mocha packages/**/*.test.js",
     "lint": "eslint ."
   },
   "engines": {
