@@ -15,14 +15,20 @@ function traverse(transform, node, parent) {
     assert(type, `Expected node, got '${node}'`);
 
     const baseHandler = transform.handlers[type] || transform.handlers.default;
-    const userHandler = transform.userHandlers[type];
+    const userHandler = transform.userHandlers[type] || transform.userHandlers.default;
     const handler = userHandler ? userHandler.bind({ __base: baseHandler }) : baseHandler;
 
     return handler(transform, node, parent);
 }
 
-function traverseChildren(transform, parent) {
-    const nodes = parent.children || [];
+function traverseChildren(transform, parent, key) {
+    key || (key = 'children');
+
+    const nodes = parent[key];
+    if (!Array.isArray(nodes) || !nodes.length) {
+        return [];
+    }
+
     const length = nodes.length;
 
     let values = [];
