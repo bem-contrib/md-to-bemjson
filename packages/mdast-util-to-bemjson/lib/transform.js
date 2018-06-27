@@ -52,6 +52,7 @@ function transformFactory(tree, options) {
         return transform.augment(bemNode);
     };
 
+    transform.userHandlers = Object.assign({}, settings.handlers);
     transform.handlers = Object.assign({}, handlers);
     transform.options = settings;
     transform.augment = augmentFactory(settings.augment);

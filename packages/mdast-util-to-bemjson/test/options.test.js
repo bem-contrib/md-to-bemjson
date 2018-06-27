@@ -24,5 +24,15 @@ describe('Test converter options', () => {
 
             expect(bjson).to.have.property('block', 'my-root');
         });
+
+        it('should rewrite bundled handlers with passed ones via `handlers` option', () => {
+            const bjson = toBemjson({ type: 'text', value: 'testcode' }, { handlers: {
+                text(transform, node) {
+                    return transform(node, { block: node.value });
+                }
+            } });
+
+            expect(bjson).to.have.property('block', 'testcode');
+        });
     });
 });

@@ -12,9 +12,11 @@ const assert = require('assert');
  */
 function traverse(transform, node, parent) {
     const type = node && node.type;
-    const handler = transform.handlers[type] || transform.handlers.default;
-
     assert(type, `Expected node, got '${node}'`);
+
+    const baseHandler = transform.handlers[type] || transform.handlers.default;
+    const userHandler = transform.userHandlers[type];
+    const handler = userHandler ? userHandler.bind({ __base: baseHandler }) : baseHandler;
 
     return handler(transform, node, parent);
 }
