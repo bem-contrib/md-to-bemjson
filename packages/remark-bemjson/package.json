@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/bem-contrib/md-to-bemjson/packages/remark-bemjson#readme",
   "devDependencies": {
-    "node-eval": "^1.1.1",
-    "remark": "^8.0.0",
-    "vfile": "^2.3.0"
+    "node-eval": "^2.0.0",
+    "remark": "^9.0.0",
+    "vfile": "^3.0.0"
   },
   "dependencies": {
     "lodash.defaultsdeep": "^4.6.0",

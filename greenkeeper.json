@@ -2,6 +2,7 @@
   "groups": {
     "default": {
       "packages": [
+        "package.json",
         "packages/md-to-bemjson/package.json",
         "packages/mdast-util-to-bemjson/package.json",
         "packages/remark-bemjson/package.json"
