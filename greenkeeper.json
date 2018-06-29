@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "packages/md-to-bemjson/package.json",
+        "packages/mdast-util-to-bemjson/package.json",
+        "packages/remark-bemjson/package.json"
+      ]
+    }
+  }
+}
