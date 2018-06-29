@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.4.0...mdast-util-to-bemjson@0.5.0) (2018-06-29)
+
+
+### Features
+
+* **md-to-bemjson:** Remove node < 8 from support ([c4dc168](https://github.com/bem-contrib/md-to-bemjson/commit/c4dc168))
+* **mdast-util-to-bemjson:** tune up arguments in traverse ([76f41d1](https://github.com/bem-contrib/md-to-bemjson/commit/76f41d1))
+* **mdast-util-to-bemjson:** user configured handlers ([de2354d](https://github.com/bem-contrib/md-to-bemjson/commit/de2354d))
+
+
+
+
 <a name="0.4.0"></a>
 # 0.4.0 (2017-10-06)
 

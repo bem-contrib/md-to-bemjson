@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.9.0"></a>
+# [0.9.0](https://github.com/bem-contrib/md-to-bemjson/compare/md-to-bemjson@0.8.0...md-to-bemjson@0.9.0) (2018-06-29)
+
+
+### Features
+
+* **md-to-bemjson:** Remove node < 8 from support ([c4dc168](https://github.com/bem-contrib/md-to-bemjson/commit/c4dc168))
+
+
+
+
 <a name="0.8.0"></a>
 # 0.8.0 (2017-10-06)
 
