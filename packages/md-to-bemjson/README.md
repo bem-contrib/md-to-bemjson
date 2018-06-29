@@ -24,7 +24,7 @@ Converts [markdown][markdown] to [bemjson][bemjson].
 
 ## Requirements
 
-* [Node.js 4+](https://nodejs.org/en/)
+* [Node.js 8+](https://nodejs.org/en/)
 
 ## Install
 

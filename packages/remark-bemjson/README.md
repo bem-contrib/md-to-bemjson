@@ -24,7 +24,7 @@ Compile markdown to BEMJSON with [**remark**](https://github.com/wooorm/remark).
 
 ## Requirements
 
-* [Node.js 4+](https://nodejs.org/en/)
+* [Node.js 8+](https://nodejs.org/en/)
 
 ## Install
 
