@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.9.1"></a>
+## [0.9.1](https://github.com/bem-contrib/md-to-bemjson/compare/md-to-bemjson@0.9.0...md-to-bemjson@0.9.1) (2018-08-16)
+
+**Note:** Version bump only for package md-to-bemjson
+
+
+
+
+
 <a name="0.9.0"></a>
 # [0.9.0](https://github.com/bem-contrib/md-to-bemjson/compare/md-to-bemjson@0.8.0...md-to-bemjson@0.9.0) (2018-06-29)
 

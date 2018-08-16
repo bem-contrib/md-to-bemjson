@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.5.0...mdast-util-to-bemjson@0.6.0) (2018-08-16)
+
+
+### Features
+
+* **mdast-util-to-bemjson:** gather definitions in tree ([cef8459](https://github.com/bem-contrib/md-to-bemjson/commit/cef8459))
+
+
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.4.0...mdast-util-to-bemjson@0.5.0) (2018-06-29)
 
