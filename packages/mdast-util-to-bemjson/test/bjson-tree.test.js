@@ -385,7 +385,7 @@ describe('Test bemjson markdown representation tree', () => {
 
     describe('Definition', () => {
         it('should ignore', () => {
-            const tree = { type: 'definition' };
+            const tree = { type: 'definition', identifier: 'test' };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.be.an('undefined');

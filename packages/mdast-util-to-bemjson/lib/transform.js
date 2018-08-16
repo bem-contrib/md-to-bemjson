@@ -8,6 +8,7 @@ const traverse = require('./traverse');
 const handlers = require('./handlers');
 const parseBemNode = require('./build-node').parse;
 const build = require('./build-node').build;
+const definitions = require('mdast-util-definitions');
 
 const DEFAULTS = require('./defaults');
 
@@ -56,6 +57,7 @@ function transformFactory(tree, options) {
     transform.handlers = Object.assign({}, handlers);
     transform.options = settings;
     transform.augment = augmentFactory(settings.augment);
+    transform.definition = definitions(tree, options);
 
     /**
      * Create augment function, for apply custom transformations
