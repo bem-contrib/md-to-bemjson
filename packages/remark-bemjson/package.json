@@ -34,7 +34,7 @@
   "homepage": "https://github.com/bem-contrib/md-to-bemjson/packages/remark-bemjson#readme",
   "devDependencies": {
     "node-eval": "^2.0.0",
-    "remark": "^9.0.0",
+    "remark": "^10.0.0",
     "vfile": "^3.0.0"
   },
   "dependencies": {
