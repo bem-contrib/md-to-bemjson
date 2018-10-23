@@ -112,14 +112,14 @@ describe('Test bemjson markdown representation tree', () => {
 
     describe('List', () => {
         it('should generate block `list`', () => {
-            const tree = { type: 'list', ordered: false, loose: false };
+            const tree = { type: 'list', ordered: false, spread: false };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('block', 'list');
         });
 
         it('should set prop and mod `ordered`', () => {
-            const tree = { type: 'list', ordered: true, loose: false };
+            const tree = { type: 'list', ordered: true, spread: false };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('ordered', true);
@@ -128,35 +128,35 @@ describe('Test bemjson markdown representation tree', () => {
         });
 
         it('should not set mod `ordered`', () => {
-            const tree = { type: 'list', ordered: false, loose: false };
+            const tree = { type: 'list', ordered: false, spread: false };
             const bjson = toBemjson(tree);
 
             bjson.mods && expect(bjson.mods).to.not.have.property('ordered');
         });
 
-        it('should set property `loose`', () => {
-            const tree = { type: 'list', ordered: false, loose: true };
+        it('should set property `spread`', () => {
+            const tree = { type: 'list', ordered: false, spread: true };
             const bjson = toBemjson(tree);
 
-            expect(bjson).to.have.property('loose', true);
+            expect(bjson).to.have.property('spread', true);
         });
 
         it('should set property `start`', () => {
-            const tree = { type: 'list', ordered: false, loose: true, start: 2 };
+            const tree = { type: 'list', ordered: false, spread: true, start: 2 };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('start', 2);
         });
 
         it('should not set property `start=1`', () => {
-            const tree = { type: 'list', ordered: false, loose: true, start: 1 };
+            const tree = { type: 'list', ordered: false, spread: true, start: 1 };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.not.have.property('start');
         });
 
         it('should not set property `start`', () => {
-            const tree = { type: 'list', ordered: false, loose: true, start: null };
+            const tree = { type: 'list', ordered: false, spread: true, start: null };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.not.have.property('start');
@@ -165,28 +165,28 @@ describe('Test bemjson markdown representation tree', () => {
 
     describe('ListItem', () => {
         it('should generate block `list-item`', () => {
-            const tree = { type: 'listItem', loose: false };
+            const tree = { type: 'listItem', spread: false };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('block', 'list-item');
         });
 
-        it('should set prop `loose`', () => {
-            const tree = { type: 'listItem', loose: true, checked: null };
+        it('should set prop `spread`', () => {
+            const tree = { type: 'listItem', spread: true, checked: null };
             const bjson = toBemjson(tree);
 
-            expect(bjson).to.have.property('loose', true);
+            expect(bjson).to.have.property('spread', true);
         });
 
         it('should set prop `checked`', () => {
-            const tree = { type: 'listItem', loose: true, checked: true };
+            const tree = { type: 'listItem', spread: true, checked: true };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('checked', true);
         });
 
         it('should set prop `checked=null`', () => {
-            const tree = { type: 'listItem', loose: true, checked: null };
+            const tree = { type: 'listItem', spread: true, checked: null };
             const bjson = toBemjson(tree);
 
             expect(bjson).to.have.property('checked', null);

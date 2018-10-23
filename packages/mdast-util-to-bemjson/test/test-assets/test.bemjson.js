@@ -7,32 +7,32 @@ module.exports = {
         { level: 2, block: 'heading', mods: { level: 2 }, content: 'Heading 2' },
         { block: 'thematic-break' }, {
             ordered: false,
-            loose: false,
+            spread: false,
             block: 'list',
             content: [{
-                loose: false,
+                spread: false,
                 checked: null,
                 block: 'list-item',
                 content: { block: 'paragraph', content: 'item 1' }
             }, {
-                loose: false,
+                spread: false,
                 checked: null,
                 block: 'list-item',
                 content: { block: 'paragraph', content: 'item 2' }
             }]
         }, {
             ordered: true,
-            loose: false,
+            spread: false,
             start: 5,
             block: 'list',
             mods: { ordered: true },
             content: [{
-                loose: false,
+                spread: false,
                 checked: null,
                 block: 'list-item',
                 content: { block: 'paragraph', content: 'item 5' }
             }, {
-                loose: false,
+                spread: false,
                 checked: null,
                 block: 'list-item',
                 content: { block: 'paragraph', content: 'item 6' }
