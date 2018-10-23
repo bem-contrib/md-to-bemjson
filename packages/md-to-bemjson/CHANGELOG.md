@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.3](https://github.com/bem-contrib/md-to-bemjson/compare/md-to-bemjson@0.9.2...md-to-bemjson@0.9.3) (2018-10-23)
+
+
+### Bug Fixes
+
+* **package:** update remark-parse to version 6.0.0 ([3dabe60](https://github.com/bem-contrib/md-to-bemjson/commit/3dabe60))
+* **package:** update remark-stringify to version 6.0.0 ([2933ac5](https://github.com/bem-contrib/md-to-bemjson/commit/2933ac5))
+
+
+
+
+
 <a name="0.9.2"></a>
 ## [0.9.2](https://github.com/bem-contrib/md-to-bemjson/compare/md-to-bemjson@0.9.1...md-to-bemjson@0.9.2) (2018-08-16)
 

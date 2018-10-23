@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.3](https://github.com/bem-contrib/md-to-bemjson/compare/remark-bemjson@0.5.2...remark-bemjson@0.5.3) (2018-10-23)
+
+**Note:** Version bump only for package remark-bemjson
+
+
+
+
+
 <a name="0.5.2"></a>
 ## [0.5.2](https://github.com/bem-contrib/md-to-bemjson/compare/remark-bemjson@0.5.1...remark-bemjson@0.5.2) (2018-08-16)
 

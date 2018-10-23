@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.6.1...mdast-util-to-bemjson@1.0.0) (2018-10-23)
+
+
+### Features
+
+* **mdast-util-to-bemjson:** In new parser loose changed to spread ([07e60fe](https://github.com/bem-contrib/md-to-bemjson/commit/07e60fe))
+
+
+### BREAKING CHANGES
+
+* **mdast-util-to-bemjson:** list now doesn't has loose option. use sread instead
+
+
+
+
+
 <a name="0.6.1"></a>
 ## [0.6.1](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.6.0...mdast-util-to-bemjson@0.6.1) (2018-08-16)
 
