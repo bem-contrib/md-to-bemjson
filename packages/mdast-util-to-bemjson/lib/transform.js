@@ -2,7 +2,9 @@
 
 const assert = require('assert');
 
-const _ = require('lodash');
+const defaultsDeep = require('lodash.defaultsdeep');
+const omit = require('lodash.omit');
+const cloneDeep = require('lodash.clonedeep');
 
 const traverse = require('./traverse');
 const handlers = require('./handlers');
@@ -25,7 +27,7 @@ const DEFAULTS = require('./defaults');
  * @returns {BjsonConverter~transform} transform function
  */
 function transformFactory(tree, options) {
-    const settings = _.defaultsDeep({}, options, DEFAULTS);
+    const settings = defaultsDeep({}, options, DEFAULTS);
 
     /**
      * Transform MDAST node to bemNode
@@ -76,7 +78,7 @@ function transformFactory(tree, options) {
          */
         function augment(bemNode) {
             const hasChildren = _hasChildren(bemNode.content);
-            const bemNodeClone = hasChildren ? _.omit(bemNode, ['content']) : _.cloneDeep(bemNode);
+            const bemNodeClone = hasChildren ? omit(bemNode, ['content']) : cloneDeep(bemNode);
             const augmentedBemNode = augmentFunction(bemNodeClone);
 
             /* Check that if we has children augmentation doesn't modify content */
