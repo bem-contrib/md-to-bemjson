@@ -39,7 +39,7 @@
     "bluebird": "^3.5.0",
     "decamelize": "^2.0.0",
     "detab": "^2.0.0",
-    "highlight.js": "^9.10.0",
+    "highlight.js": "9.14.2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.defaultsdeep": "^4.6.0",
     "lodash.omit": "^4.5.0",
