@@ -16,7 +16,10 @@ function traverse(transform, node, parent) {
 
     const baseHandler = transform.handlers[type] || transform.handlers.default;
     const userHandler = transform.userHandlers[type] || transform.userHandlers.default;
-    const handler = userHandler ? userHandler.bind({ __base: baseHandler }) : baseHandler;
+    const starHandler = transform.userHandlers['*'];
+    const userBaseHandler = userHandler ? userHandler.bind({ __base: baseHandler }) : baseHandler;
+
+    const handler = starHandler ? starHandler.bind({ __base: userBaseHandler }) : userBaseHandler;
 
     return handler(transform, node, parent);
 }
