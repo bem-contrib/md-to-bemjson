@@ -1,6 +1,6 @@
 {
   "name": "remark-bemjson",
-  "version": "0.5.3",
+  "version": "1.0.0",
   "description": "remark plugin to compile bemjson",
   "main": "index.js",
   "scripts": {
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "lodash.defaultsdeep": "^4.6.0",
-    "mdast-util-to-bemjson": "^1.0.0",
+    "mdast-util-to-bemjson": "^1.0.1",
     "umd": "^3.0.3"
   }
 }
