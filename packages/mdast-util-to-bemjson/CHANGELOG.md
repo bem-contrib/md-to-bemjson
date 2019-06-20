@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@1.0.1...mdast-util-to-bemjson@1.0.2) (2019-06-20)
+
+
+### Bug Fixes
+
+* **package:** update decamelize to version 3.0.0 ([69c78df](https://github.com/bem-contrib/md-to-bemjson/commit/69c78df))
+
+
+
+
+
 # [1.0.0](https://github.com/bem-contrib/md-to-bemjson/compare/mdast-util-to-bemjson@0.6.1...mdast-util-to-bemjson@1.0.0) (2018-10-23)
 
 
