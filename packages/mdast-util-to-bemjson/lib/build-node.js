@@ -1,6 +1,6 @@
 'use strict';
 
-const decamelize = require('decamelize');
+const decamelize = require('./decamelize');
 
 /**
  * Build simple block bemjson
