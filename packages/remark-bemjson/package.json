@@ -35,7 +35,7 @@
   "devDependencies": {
     "node-eval": "^2.0.0",
     "remark": "^10.0.0",
-    "vfile": "^3.0.0"
+    "vfile": "^4.0.0"
   },
   "dependencies": {
     "lodash.defaultsdeep": "^4.6.0",
