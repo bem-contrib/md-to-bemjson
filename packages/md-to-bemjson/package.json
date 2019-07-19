@@ -38,7 +38,7 @@
     "html2bemjson": "^1.9.0",
     "lodash.defaultsdeep": "^4.6.0",
     "remark-bemjson": "^1.0.2",
-    "remark-github": "^7.0.0",
+    "remark-github": "^8.0.0",
     "remark-inline-links": "^3.0.3",
     "remark-parse": "^6.0.0",
     "remark-stringify": "^6.0.0",
