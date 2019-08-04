@@ -41,7 +41,7 @@
     "remark-github": "^7.0.0",
     "remark-inline-links": "^3.0.3",
     "remark-parse": "^6.0.0",
-    "remark-stringify": "^6.0.0",
+    "remark-stringify": "^7.0.2",
     "unified": "^7.0.0"
   }
 }
