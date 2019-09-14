@@ -33,7 +33,7 @@
   "homepage": "https://github.com/bem-contrib/md-to-bemjson/packages/mdast-util-to-bemjson#readme",
   "devDependencies": {
     "remark-parse": "^6.0.0",
-    "unified": "^7.0.0"
+    "unified": "^8.4.0"
   },
   "dependencies": {
     "detab": "^2.0.0",
