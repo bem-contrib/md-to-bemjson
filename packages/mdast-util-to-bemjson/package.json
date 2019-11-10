@@ -40,7 +40,7 @@
     "lodash.clonedeep": "^4.5.0",
     "lodash.defaultsdeep": "^4.6.0",
     "lodash.omit": "^4.5.0",
-    "mdast-util-definitions": "^1.2.2",
+    "mdast-util-definitions": "^2.0.0",
     "normalize-uri": "^1.1.0"
   }
 }
