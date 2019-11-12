@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/bem-contrib/md-to-bemjson#readme",
   "devDependencies": {
-    "@types/chai": "^4.0.4",
+    "@types/chai": "^4.2.5",
     "@types/sinon": "^7.0.0",
     "chai": "^4.0.2",
     "chai-as-promised": "^7.0.0",
