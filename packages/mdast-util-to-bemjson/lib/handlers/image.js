@@ -1,13 +1,11 @@
 'use strict';
 
-const normalize = require('normalize-uri');
-
 const parseBlock = require('../build-node').parse;
 
 function image(transform, node) {
     const block = parseBlock(node.type);
 
-    const props = { src: normalize(node.url) };
+    const props = { src: encodeURI(decodeURI(node.url)) };
     node.title && (props.title = node.title);
     node.alt && (props.alt = node.alt);
 
